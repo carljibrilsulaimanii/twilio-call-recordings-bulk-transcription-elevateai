@@ -1,0 +1,17 @@
+# Call recordings and transcripts are private customer conversations. Never commit them.
+recordings/
+transcripts/
+punctuated/
+punctuated_txt/
+csv_batches_49mb/
+transcript doc/
+*.mp3
+*.wav
+*.docx
+*.csv
+*.punctuated.json
+# Never commit a token, even an expired one
+.env
+*.token
+__pycache__/
+*.pyc
